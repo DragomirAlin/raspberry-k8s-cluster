@@ -16,5 +16,6 @@ pip3 install ansible --user
 Clone the k3s-ansible repo
 
 ### Configure kubectl
+ ansible-playbook site.yml -i inventory/rpi/hosts.ini
 
 
